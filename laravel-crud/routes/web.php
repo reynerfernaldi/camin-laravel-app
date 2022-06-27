@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\SiswaController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,5 +15,15 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return 'Home';
 });
+
+Route::get('/siswa', 'App\Http\Controllers\SiswaController@index');
+
+Route::post('/siswa/create', 'App\http\Controllers\SiswaController@create');
+
+Route::get('/siswa/{id}/edit', 'App\http\Controllers\SiswaController@edit');
+
+Route::post('/siswa/{id}/update', 'App\http\Controllers\SiswaController@update');
+
+Route::get('/siswa/{id}/delete', 'App\http\Controllers\SiswaController@delete');

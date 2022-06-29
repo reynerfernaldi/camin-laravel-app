@@ -16,14 +16,22 @@ List fitur pada aplikasi ini adalah sebagai berikut.
 
 ## Tampilan Aplikasi
 
-![Alt text](/res/landing_page.png?raw=true "Landing Page")
-
-### Fitur 1: ...
+### Fitur 1: Landing Page
 
 ![Alt text](/res/landing_page.png?raw=true "Landing Page")
 
-### Fitur 2: ...
+### Fitur 2: Tambah Data
 
-(screenshot fitur 2)
+![Alt text](/res/create.png?raw=true "Create")
 
-### Dst
+### Fitur 3: Tampilkan Data
+
+![Alt text](/res/read.png?raw=true "Read")
+
+### Fitur 4: Ubah Data
+
+![Alt text](/res/edit.png?raw=true "Edit")
+
+### Fitur 5: Hapus Data
+
+![Alt text](/res/delete.png?raw=true "Delete")

@@ -36,7 +36,7 @@
         <label for="alamat" class="form-label">Alamat</label>
         <textarea class="form-control" id="floatingTextarea2" style="height: 100px" name="alamat">{{$siswa->alamat}}</textarea>
     </div>
-
+    <a class="btn btn-danger" href="/siswa" role="button">Batalkan</a>
     <button type="submit" class="btn btn-warning">Update</button>
 
 </form>

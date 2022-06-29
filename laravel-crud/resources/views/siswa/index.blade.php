@@ -14,7 +14,7 @@
     <div class="col-6">
         <!-- Button trigger modal -->
         <button type="button" class="btn btn-primary float-end" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            Tambah Data
+            Tambah Siswa
         </button>
 
         <!-- Modal -->
@@ -22,7 +22,7 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Tambah Siswa</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
@@ -69,6 +69,7 @@
 
 <table class="table table-striped table-hover">
     <thead>
+
         <tr>
             <th scope="col">NAMA DEPAN</th>
             <th scope="col">NAMA BELAKANG</th>
@@ -76,6 +77,7 @@
             <th scope="col">AGAMA</th>
             <th scope="col">ALAMAT</th>
             <th scope="col">AKSI</th>
+
         </tr>
     </thead>
     <tbody>

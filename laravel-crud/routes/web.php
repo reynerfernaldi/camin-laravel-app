@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return 'Home';
+    return view('welcome');
 });
 
 Route::get('/siswa', 'App\Http\Controllers\SiswaController@index');

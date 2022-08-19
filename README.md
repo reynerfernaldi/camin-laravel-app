@@ -14,7 +14,7 @@ List fitur pada aplikasi ini adalah sebagai berikut.
 4. Fitur View dan Edit Profile
 5. Fitur Memasukkan barang ke keranjang
 6. Fitur Menghapus barang dari keranjang
-7. Fitur Checkout Barang
+7. Fitur Checkout Barang dengan Kode Unik
 8. Fitur History
 9. Fitur Validasi
 10. Fitur Alert
@@ -52,7 +52,7 @@ Sebelum Dihapus
 Setelah dihapus
 ![Alt text](/res/keranjang_kosong.png?raw=true "keranajng_kosong")
 
-### Fitur 7: Fitur Checkout Barang
+### Fitur 7: Fitur Checkout Barang dengan Kode Unik
 
 ![Alt text](/res/checkout.png?raw=true "checkout")
 
@@ -63,9 +63,11 @@ Setelah dihapus
 ### Fitur 9: Fitur Validasi
 
 Memasukkan barang ke keranjang melebihi stok yang ada
-![Alt text](/res/alert_out_of_stock.png?raw=true "out_of_stock")
+![Alt text](/res/out_of_stock.png?raw=true "out_of_stock")
+![Alt text](/res/alert_out_of_stock.png?raw=true "alert_out_of_stock")
 Memasukkan 0 barang ke keranjang
-![Alt text](/res/alert_zero_item.png?raw=true "zero_item")
+![Alt text](/res/zero_item.png?raw=true "zero_item")
+![Alt text](/res/alert_zero_item.png?raw=true "alert_zero_item")
 
 ### Fitur 10: Fitur Alert
 
